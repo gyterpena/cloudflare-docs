@@ -123,6 +123,12 @@ A Worker that serves 100 million requests per month, and uses an average of 7 mi
 
 {{</table-wrap>}}
 
+{{<Aside type="note" header="Custom limits">}}
+
+More strict limits can be configured for a Worker's maximum CPU time. Limits can be configured via the Dashboard or with [Wrangler](/workers/wrangler/configuration/#limits).
+
+{{</Aside>}}
+
 ### How to switch Usage Models
 
 When an account is first upgraded to the Paid plan, the Unbound plan is used as the default Usage Model. To change your default account-wide Usage Model:
